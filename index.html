@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <div class="div-music">  
@@ -16,12 +17,12 @@
 
   <audio id="backgroundMusic" src="assets/cancion.mp3"></audio>
 </div>
-  <div class="div-welcome-text">
+  <div class="div-welcome-text" data-aos="fade-up">
     <p class="welcome-text">❝LA FAMILIA ES DONDE EMPIEZA LA VIDA Y EL AMOR NUNCA TERMINA❞</p>
     <img class="welcome-img" src="assets/fotobienvenida.png" alt="">
   </div>
 
-  <div style="text-align: center; margin-top: -20px;">
+  <div style="text-align: center; margin-top: -20px;" data-aos="fade-up">
     <p style="color: #828759; font-size: 34px;" class="great-vibes-regular">La familia</p>
     <p style="color: #828759; font-size: 54px; margin-bottom: 10px;" class="great-vibes-regular">Brito García</p>
     <p style="font-family: 'Goudos', sans-serif; color: #587559; margin-bottom: 20px;">SE COMPLACE EN INVITARLOS A <br> CELEBRAR <strong>25 AÑOS</strong> DE</p>
@@ -41,34 +42,34 @@
 </p>
   </div>
 
-  <div class="div-imagen">
+  <div class="div-imagen" data-aos="fade-up">
     <img style="margin: 0;" class="img-2" src="assets/foto2.png" alt="">
   </div>
 
-  <div class="div-protocolo">
+  <div class="div-protocolo" data-aos="fade-up">
     <img class="img-protocolo" src="assets/protocolo.png" alt="">
   </div>
 
-  <div class="div-img4">
+  <div class="div-img4" data-aos="fade-up">
     <img class="img-4" src="assets/foto4.png" alt="">
   </div>
 
-  <div style="display: flex; align-items: center; flex-direction: column; margin-bottom: 50px;">
+  <div style="display: flex; align-items: center; flex-direction: column; margin-bottom: 50px;" data-aos="fade-up">
     <p style="color: #828759; font-size: 44px; margin-bottom: 5px;" class="great-vibes-regular">Vestimenta:</p>
     <p style="font-family: 'Goudos', sans-serif; color: #587559;">LO QUE TE HAGA SENTIR MUY BIEN.</p>
   </div>
 
-  <div style="display: flex; align-items: center; flex-direction: column; text-align: center; margin-bottom: 50px;">
+  <div style="display: flex; align-items: center; flex-direction: column; text-align: center; margin-bottom: 50px;" data-aos="fade-up">
     <p style="color: #828759; font-size: 44px; margin-bottom: 5px;" class="great-vibes-regular">Regalo:</p>
     <p style="font-family: 'Goudos', sans-serif; color: #587559; margin-bottom: 10px;">ELEGIDOS POR LA FAMILIA.</p>
     <p style="font-family: 'Goudos', sans-serif; color: #587559;">PREGUNTA AL LLEGAR.</p>
   </div>
 
-  <div class="div-img5">
+  <div class="div-img5" data-aos="fade-up">
     <img class="img-5" src="assets/foto5.png" alt="">
   </div>
 
-  <div style="display: flex; align-items: center; flex-direction: column; margin-bottom: 35px; text-align: center;">
+  <div style="display: flex; align-items: center; flex-direction: column; margin-bottom: 35px; text-align: center;" data-aos="fade-up">
   <p style="color: #828759; font-size: 44px; margin-bottom: 5px;" class="great-vibes-regular">Confirma tu asistencia:</p>
 
   <a 
@@ -90,7 +91,7 @@
   </a>
 </div>
 
-  <div style="text-align: center;">
+  <div style="text-align: center;" data-aos="fade-up">
     <p style="font-family: 'Goudos', sans-serif; color: #A87C13; font-size: 30px; font-style: italic;">¡Te esperamos!</p>
     <img style="width: 100%; max-width: 500px;" src="assets/plantitas.png" alt="">
   </div>
@@ -132,6 +133,14 @@
   }
 });
 </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            once: true
+        });
+    </script>
 
 </body>
 </html>
