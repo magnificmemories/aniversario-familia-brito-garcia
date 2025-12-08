@@ -36,7 +36,13 @@ body {
   margin-bottom: 30px;
   font-weight: 500;
   letter-spacing: 2px;
+  max-width: 550px;    /* Ajusta el máximo donde caben 2 líneas */
+  text-wrap: balance;  /* Hace más bonita la distribución */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
 .welcome-img {
   width: 100%;
   max-width: 500px;
