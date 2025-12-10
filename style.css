@@ -28,14 +28,14 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px 0 0 0;
-  font-size: 17px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 .welcome-text {
   color: #587559;
   font-family: 'Goudos', sans-serif;
   margin-bottom: 30px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   max-width: 550px;    /* Ajusta el máximo donde caben 2 líneas */
   text-wrap: balance;  /* Hace más bonita la distribución */
